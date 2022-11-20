@@ -8,14 +8,15 @@
     <meta name="keywords" content="CSS, HTML, Resume, CV">
     <title>Valerii CV</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="intro">
+        <header class="intro card">
             <img src="img/img001.jpg" alt="Here my Photo" class="img">
             <div class="text">
                 <h1>Valerii Demchenko</h1>
-                <p>Hello guys! I am 33 years old man, but in my heart I`m 18.
+                <p>Hello guys! I am 33 years old man.
                     I`m always open to new knowledge and new horizons.
                     Never despair, never give up. Only forward to new goals and dreams.</p>
                 <p>IT is my new target, so it's time to rise to a new height. <strong> SO GO GET IT!</strong> </p>
@@ -29,93 +30,173 @@
                     <a href="https://twitter.com/lorence_112" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
                 </div>
             </div>
-        </div> 
-        <div class="about_me card">
-            <h3>About me</h3>
-            <p>The most difficult thing in human life is to find yourself. Every year of your conscious 
-            life you learn something new. Childhood, youth, adult life - all these stages 
-            are accompanied by a huge amount of information.
-             At every stage, a person wants to find something that will be to their liking.
-            That's how I have worked in different positions in my life. 
-            He worked as an accountant at a large factory and in a private firm. 
-            Worked in telephone sales as a manager, worked in direct sales as a sales assistant. 
-            And in each position I studied, learned different skills.
-            Thoroughness, perseverance, communication, attentiveness, punctuality, improvisation,
-             initiative, stress resistance - these psychological skills have been developed
-              in the process of working in various specialties, but in addition to all this,
-               impressive knowledge and experience have accumulated.
-             Despite this, I am sure that there are things that I do not know, even in the areas in which
-              I have worked, that I still have to learn.
-              <a href="https://en.wikipedia.org/wiki/Quintilian">Quintilian's</a>  famous aphorism "it's never too late to learn" very well describes my position in life.
-                Our whole world is studying in the class of an ordinary school with the name “life”,
-                 it goes differently for everyone, but everyone learns.
-            </p>
-        </div>
+        </header> 
         <div class="work_permit card">    
-            <h3>Work Experrience</h3>
+            <h3>Опыт работы</h3>
             <table class="experrience">
                 <thead>
                     <tr>
-                        <th>Organization</th>
-                        <th>Job title</th>
-                        <th>Year</th>
+                        <th>Организация</th>
+                        <th>Специальность</th>
+                        <th>Период</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Luganskgormash</td>
-                        <td>Accountant</td>
-                        <td>2011-2014</td>
-                    </tr>
-                    <tr>
-                        <td>MalmoMobilePhone</td>
-                        <td>Manager</td>
-                        <td>2014-2017</td>
-                    </tr>
-                    <tr>
-                        <td>IcePrice</td>
-                        <td>Manager</td>
+                        <td><a target="_blank" href="https://iceprice.com.ua/">IcePrice</a></td>
+                        <td> <div class="job_title"> 
+                                <div class="job_title_inner"> Управляющий магазином
+                                    <div class="job_content">
+                                    <a href="">Заказ товаров <br> (>20000$ Китай, Украина)</a>
+                                    <a href="">Прямые продажи</a>
+                                    <a href="">Косвенные продажи</a>
+                                    <a href="">Логистика</a>
+                                    <a href="">Обучение нового персонала (>10 человек)</a>
+                                    <a href="">Построение рабочего процесса</a>
+                                    <a href="">Контроль за работой персонала</a>
+                                    <a href="">Решение конфликтных ситуаций</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                       </td>
                         <td>2018-2022</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_blank" href="https://www.company-list.org/malmo_mobile_phone_l_l_c.html">MalmoMobilePhone</a></td>
+                        <td><div class="job_title"> 
+                            <div class="job_title_inner"> Mенеджер
+                                <div class="job_content">
+                                    <a href="">Закупка товаров <br>(>10000$, Китай, Украина, Дубаи)</a>
+                                    <a href="">Прямые продажи</a>
+                                    <a href="">Логистика</a>
+                                    <a href="">Ввел новые формы дневной и годовой отчетности магазина</a>
+                                    <a href="">Обучение нового персонала (>5 человек)</a>
+                                    <a href="">Мониторинг конкурентов</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        </td>
+                        <td>2015-2018</td>
+                    </tr>
+                    <tr>
+                        <td>ФЛП Бершак АВ </td>
+                        <td><div class="job_title"> 
+                            <div class="job_title_inner"> Mенеджер-Бухгалтер
+                                <div class="job_content">
+                                    <a href="">Работа с тёплой/холодной базой</a>
+                                    <a href="">Привлечение новых клиентов</a>
+                                    <a href="">Логистика</a>
+                                    <a href="">Участие в тендерных торгах</a>
+                                    <a href="">Контроль дебиторской задолженности клиентов</a>
+                                    <a href="">Контроль за заполнением склада</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        </td>
+                        <td>2014-2015</td>
+                    </tr>
+                    <tr>
+                        <td> <a target="_blank" href="http://wikimapia.org/23022987/ru/%D0%9F%D0%90%D0%9E-%D0%9B%D1%83%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B3%D0%BE%D1%80%D0%BC%D0%B0%D1%88">ПАО Луганскгормаш</a></td>
+                        <td><div class="job_title"> 
+                            <div class="job_title_inner">Бухгалтер
+                                <div class="job_content">
+                                    <a href="">Ведение первичной документации</a>
+                                    <a href="">Основные средства</a>
+                                    <a href="">Участие в инвентаризациях</a>
+                                    <a href="">Расчет заработной платы</a>
+                                    <a href="">Налогообложение</a>
+                                    <a href="">Взаимодействие с банками и кредитными организациями</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        </td>
+                        <td>2011-2014</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div class="hobbi card">       
-            <h3>My Hobbi</h3>
-                <ul class="list">
-                    <li>Reading</li>
-                    <li>Travelling</li>
-                    <li>Sport
-                        <ul>
-                            <li>Footbal</li>
-                            <li>Ping Pong</li>
-                            <li>Chess</li>
-                        </ul>
-                    </li>
-                    <li>PC Game</li>
-                    <li>Walking</li>
-
-                </ul>
-        </div>
-       
-        <form class="contact card">
-            <h3>Contact me</h3>
-            <div class="form">
-                <div class="form_group">
-                    <label for="name">Name</label>
-                    <input type="name" id="name" placeholder="Your Name Here">
-                </div>
-                <div class="form_group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Your email Here">
+        <div class="skills card">
+            <div class="lng_skill">
+                <h3>Языки</h3>
+                <div class="lng_inner">
+                    <div class="lng_item">
+                        <img width="150px" height="120px" class="lng_img" src="./img/россия.jpg"  alt="Русский">
+                        <div class="lng_content">
+                            <h2>C2</h2>
+                        </div>
+                    </div>                  
+                    <div class="lng_item">
+                        <img width="150px" height="120px" src="./img/украина.jpg" alt="Украинский">
+                        <div class="lng_content">
+                            <h2>C2</h2>
+                        </div>
+                    </div> 
+                    <div class="lng_item">
+                        <img width="150px" height="120px" src="./img/англ.png" alt="Английский">
+                        <div class="lng_content">
+                            <h2>B1</h2>
+                        </div>
+                    </div>
+                    <div class="lng_item">
+                        <img width="150px" height="120px" src="./img/польша.png" alt="Польский">
+                        <div class="lng_content">
+                            <h2>A2</h2>
+                        </div> 
+                    </div>
                 </div>    
-                <div class="form_group">
-                    <label for="message">Message</label>
-                    <textarea name="Message" id="message" cols="30" rows="5" placeholder="Your message here"></textarea>
-                </div>
-                <button class="btn">Confirm</button>
             </div>
-        </form>
-    </div>    
+            <div class="PC_skill">
+                <h3>Навыки</h3>
+                <div class="pc_inner">
+                    <img src="./img/1с.png" alt="1C">
+                    <img src="./img/эксэль.png" alt="Excel">
+                    <img src="./img/ворд.png" alt="Word">
+                    <img src="./img/html.png" alt="HTML">
+                    <img src="./img/css.png" alt="CSS">
+                </div>   
+            </div>
+        </div>
+        <div class="about_me" id="modal_1">
+           <button class="modal_close" type="button" data-close> <img src="/img/закрыть.png" alt=""></button> 
+            <h3>Обо мне.</h3>
+            <p>Самое сложное в жизни человека - найти себя. Каждый год cвоей сознательной жизни, вы узнаете что-то новое.  Детство, юность, взрослая жизнь - все эти этапы сопровождаются огромным объемом информации. На каждом этапе человек хочет найти то, что будет ему по душе. Так и я работал на разных должностях в своей жизни. Работал бухгалтером на крупном заводе и в частной фирме. Работал в телефонных продажах менеджером, работал в прямых продажах продавцом-консультантом. И на каждой должности я учился разным навыкам. Аккуратность, настойчивость, коммуникабельность, внимательность, пунктуальность, импровизация, инициативность, стрессоустойчивость - все эти качества развились в процессе работы на  разных должностях, но помимо всего этого, накопились впечатляющие знания и опыт.
+                Несмотря на это, я уверен, что есть вещи, которых я не знаю, даже в областях, в которых я работал, чему я еще должен научиться. Знаменитый афоризм <a href="https://en.wikipedia.org/wiki/Quintilian">Quintiliana</a> гласит:«учиться никогда не поздно». Это хорошо описывает мою жизненную позицию.
+                Весь наш мир учится в классе обычной школы с названием «жизнь»,
+                у всех обучение происходит  по-разному, но все учатся.
+            </p>
+        </div>
+        <div class="hobbi card">       
+            <h3>Мои увлечения</h3>
+            <div class="hobbi__inner">
+                <div class="hobbi_img"><img width="300" height="200" src="/img/чтение.jpg" alt="Reading"></div>
+                    
+                <div class="hobbi_img"> <img width="300" height="200" src="/img/путешествие.jpg" alt="Travelling"></div>
+                    
+                <div class="hobbi_img"> <img width="300" height="200" src="/img/футбол.jpg" alt="Sport"></div>
+                        
+                <div class="hobbi_img"> <img width="300" height="200" src="/img/пк.jpg" alt="PC"> </div>
+            </div>
+        </div>
+        <button class="btn" type="button" data-modal="#modal_1"> обо мне</button>
+        <footer class="card">
+            <div class="contact">
+                <h3>Телефон</h3>
+                <h3>Email</h3>
+            </div>
+            <div class="contact">
+                <h3>+380666990382</h3>
+                <h3>aramiss112@gmail.com</h3>
+            </div>
+        </footer>
+    </div>
+   
+<script src="/app.js"></script>    
 </body>
 </html>
